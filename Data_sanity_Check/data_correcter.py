@@ -21,7 +21,7 @@ for folder in temp_test_folders:
     file = re.sub(r'\n.+@ENRON', "\n-----Original Message-----", file)
     file = re.sub(r'-+\s*Forwarded\s*', "\n-----Original Message-----", file)
     file = re.sub(r'\n*".+"\s*<.+>',"\n-----Original Message-----", file)
-    file = re.sub(r'\n*From:.+M', "\n-----Original Message-----", file)
+    file = re.sub(r'\n*From:.+[AP]M', "\n-----Original Message-----", file)
     file = re.sub(r'<.+>.+M', "\n-----Original Message-----", file)
     file = re.sub(r'\.com.+M',"\n-----Original Message-----", file)
     if file != old_file:

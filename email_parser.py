@@ -12,7 +12,7 @@ def parse_directory():
   corpus_tokens = Counter()
   print "Entered Parse Directory"
   working_path = "/Users/mihirkelkar/Desktop/thesis/enron/maildir/*"
-  for dir in glob.glob(working_path)[:7]:
+  for dir in [glob.glob(working_path)[2]]:
     corpus_tokens += parse_emails(dir + "/")
   return corpus_tokens
 
@@ -40,11 +40,11 @@ def parse_email_tokens(cemail):
   for sent in sent_tokens:
     sent = "".join([ii if ii not in string.punctuation else "" for ii in sent.lower()])
     # *******************************************************
-    #print cemail
-    #print "--------------------------------"
-    #print clean_up(word_tokenize(sent))
-    #print '================================='
-    #*******************************************************
+    print cemail
+    print "--------------------------------"
+    print clean_up(word_tokenize(sent))
+    print '================================='
+    print "*******************************************************"
     word_tokens += word_tokenize(sent)
     word_tokens = clean_up(word_tokens)
     #******************   TEMPORARY CODE HACK ****************
