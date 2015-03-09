@@ -57,7 +57,7 @@ def parse_email_tokens(cemail):
   word_tokens = list()
   for sent in sent_tokens:
     sent = "".join([ii if ii not in string.punctuation else "" for ii in sent.lower()])
-    word_tokens += clean_up(word_tokenize(sent))
+    word_tokens += nltk.ngrams(clean_up(word_tokenize(sent)), 3)
   return word_tokens
 
 
@@ -73,13 +73,16 @@ def main():
   #Every time you run this script change this print. 
   print "Making vectors for " +  sys.argv[3] + " block length with " +  sys.argv[2] + " function words"
   slice = sys.argv[2]
-  fp = open("../token_length_list", "r")
+  fp = open("../trigram_token_list", "r")
   function_words = list()
   counter = 0
   while counter < 200:
-    function_words.append(fp.readline().strip().split()[0])
+    temp_line = fp.readline().strip().split()
+    x = temp_line[0]
+    y = temp_line[1]
+    z = temp_line[2]
+    function_words.append((x, y, z))
     counter += 1
-  #List of Dict of of 5000 word blocks. 
   temp = parse_directory()
   ctr = 1
   for block in temp:
@@ -91,9 +94,9 @@ def main():
       except:
         final_counter[ii] = block[ii] 
 
-    kp = open(sys.argv[1] + "/vectors/" + slice + "/" + "function_word_block" + "_" +  str(ctr), "w")
+    kp = open(sys.argv[1] + "/trigrams/" + slice + "/" + "trigrams" + "_" +  str(ctr), "w")
     for word_vector in function_words[0:int(slice)]:
-      kp.write(word_vector + " : " + str(final_counter[word_vector]) + "\n")
+      kp.write(word_vector[0] + " " + word_vector[1] + " " + word_vector[2] +  " : " + str(final_counter[word_vector]) + "\n")
     ctr += 1
     kp.close()
   fp.close()

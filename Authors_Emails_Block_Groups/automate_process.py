@@ -7,9 +7,9 @@ def calculate_user_function_vectors():
   for ii in author_list:
     user = ii.strip().split(":")[0].split("/")[-2]
     print user
-    if not os.path.isdir(user + "/vectors/"):
-      os.makedirs(user + "/" + "vectors/" + "50")
-      os.makedirs(user + "/" + "vectors/" + "200")
+    if not os.path.isdir(user + "/trigrams/"):
+      os.makedirs(user + "/" + "trigrams/" + "50")
+      os.makedirs(user + "/" + "trigrams/" + "200")
     for jj in ["50", "200"]:
       for kk in ["1000"]:
         subprocess.call(["python", "email_parser_ngram.py", user, jj, kk])
