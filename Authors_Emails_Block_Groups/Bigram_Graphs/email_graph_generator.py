@@ -1,4 +1,7 @@
 #The three dimensions of the graph in this case happen to be the 3 most important function words that get selected after the singular value decomposition. 
+
+#Also, make sure that you rid zero frequency words from the term document matix that is coming in. 
+
 import glob
 import pandas as pd
 import sys
@@ -19,7 +22,7 @@ def main():
     counter += 1
   print "Author list extracted"
   term_document_matrix = list()
-  working_path = "/Users/mihirkelkar/code/Text_Mining_Enron/Authors_Emails_Block_Groups/" + person_name + "/vectors/" + word_size + "/*"
+  working_path = "/Users/mihirkelkar/code/Text_Mining_Enron/Authors_Emails_Block_Groups/" + person_name + "/bigrams/" + word_size + "/*"
   temp_files_list = glob.glob(working_path)
   for file in temp_files_list:
     fp = open(file, 'r')
@@ -43,5 +46,5 @@ def main():
   fig = pylab.figure()
   ax = Axes3D(fig)
   ax.scatter(vector_x, vector_y, vector_z)
-  pyplot.savefig(person_name + "_Email_Block_Similarity_" + "_Function_Word_Size_" + word_size)
+  pyplot.savefig(person_name + "_Email_Block_Similarity_" + "_Word_Bigrams_Size_" + word_size)
 main()
