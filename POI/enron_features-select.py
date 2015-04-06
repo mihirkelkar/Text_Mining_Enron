@@ -14,6 +14,10 @@ outliers = ["SKILLING JEFFREY K", "LAY KENNETH L", "FREVERT MARK A", "PICKERING 
 
 data = pickle.load(open("enron.pkl", "r"))
 features = ["salary", "bonus"]
+count = 0
+for ii in data.keys():
+  if data[ii]['poi']:
+    print ii
 for ii in outliers:
   del data[ii]
 
