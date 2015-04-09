@@ -21,10 +21,10 @@ S'SAMME.R'
 p10
 sS'learning_rate'
 p11
-F3.0
+F1.0
 sS'n_estimators'
 p12
-I5000
+I50
 sS'random_state'
 p13
 I202

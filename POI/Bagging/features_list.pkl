@@ -7,6 +7,8 @@ aS'bonus'
 p3
 aS'expenses'
 p4
-aS'frac_from_poi'
+aS'exercised_stock_options'
 p5
+aS'frac_from_poi'
+p6
 a.

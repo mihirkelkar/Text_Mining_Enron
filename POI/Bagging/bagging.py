@@ -17,7 +17,7 @@ precision = 0
 accuracy = 0
 recall = 0
 for counter in range(0, 10):
-  folded = StratifiedKFold(labels, n_folds = 3)
+  folded = StratifiedKFold(labels, n_folds = 2, shuffle = True)
   for train_instance , test_instance in folded:
     features_train = list()
     features_test = list()
@@ -39,8 +39,9 @@ for counter in range(0, 10):
     precision += precision_score(labels_test, prediction)  
     recall += recall_score(labels_test, prediction)
     accuracy += score
+    print "-------------"
 
 #fp  = open('Graph/Ada_Boost_Optimal_performace', 'w')
-print("Learning Rate : %s, Iterators : %s, Precision : %s, Recall %s, Accuracy :%s \n" %(sys.argv[2], sys.argv[1], float(precision)/30.0, float(recall) / 30.0, float(accuracy) / 30.0 ))
+print("Estimators : %s, Precision : %s, Recall %s, Accuracy :%s \n" %(sys.argv[1], float(precision)/20.0, float(recall) / 20.0, float(accuracy) / 20.0 ))
 #fp.close()
 

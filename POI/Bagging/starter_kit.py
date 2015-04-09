@@ -42,8 +42,8 @@ def ensemble(data_set, features_list):
   from data_sorter import split
   data = featuresProcess(data_set, features_list)
   labels, features = split(data)
-  from sklearn.ensemble import AdaBoostClassifier
-  clf = AdaBoostClassifier(n_estimators = int(sys.argv[1]), random_state = 202, learning_rate = float(sys.argv[2]), algorithm = "SAMME.R") 
+  from sklearn.ensemble import BaggingClassifier
+  clf = BaggingClassifier(n_estimators = int(sys.argv[1]), random_state = 202,         bootstrap = True) 
   pickle.dump(clf, open("classifier_ada.pkl", "w"))
   pickle.dump(features_list, open("features_list.pkl", "w"))
   pickle.dump(data_set, open("dataset.pkl", "w"))
@@ -52,7 +52,7 @@ def ensemble(data_set, features_list):
 def main():
   data_dict = loadDataset()
   data_dict = buildFeatures(data_dict)
-  features = ["poi", "salary", "bonus", "expenses", "frac_from_poi"]
+  features = ["poi", "salary", "bonus", "expenses", "exercised_stock_options", "frac_from_poi"]
   #features = ["poi", "frac_from_poi", "frac_to_poi", "shared_receipt_with_poi"]
   ensemble(data_dict, features)
 
