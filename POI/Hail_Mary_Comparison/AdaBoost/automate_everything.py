@@ -15,8 +15,8 @@ def main():
     The inner loop varies the learning rate. The learning rate in a ADA Boost Algorithm affects the    weighted average calculation. (Move granularly from 0.1 to 3.0 with steps of 0.05)
   """
   for feature in features:
-    for num in range(5, 5000):
-      for lr in range(10, 300, 5):
+    for num in range(1, 5001, 100):
+      for lr in range(10, 300, 10):
         lr *= 0.01
         subprocess.call(["python", "starter_ada.py", str(num), str(lr), " ".join(feature)])
         for fold in range(2, 5):

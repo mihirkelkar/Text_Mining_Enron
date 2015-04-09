@@ -1,369 +1,54 @@
 Features are salary bonus expenses frac_from_poi
 Algrithm : Aggregate Boosting
-Number of Estimators : 5
+Number of Estimators : 1
 Folds for cross validation : 2
-Precision : 0.297182539683
-Recall : 0.15
-Accuracy : 0.842361111111
-F-Meaure : 0.199369952968
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 5
-Folds for cross validation : 3
-Precision : 0.248373015873
-Recall : 0.2
-Accuracy : 0.8375
-F-Meaure : 0.22157713072
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 5
-Folds for cross validation : 4
-Precision : 0.328055555556
-Recall : 0.22625
-Accuracy : 0.839111969112
-F-Meaure : 0.267803808569
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 6
-Folds for cross validation : 2
-Precision : 0.241840659341
-Recall : 0.172222222222
-Accuracy : 0.836111111111
-F-Meaure : 0.20117879496
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 6
-Folds for cross validation : 3
-Precision : 0.262394179894
-Recall : 0.2
-Accuracy : 0.826388888889
-F-Meaure : 0.226987441714
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 6
-Folds for cross validation : 4
-Precision : 0.3275
-Recall : 0.2075
-Accuracy : 0.845386100386
-F-Meaure : 0.254042056075
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 7
-Folds for cross validation : 2
-Precision : 0.27946969697
-Recall : 0.2
-Accuracy : 0.839583333333
-F-Meaure : 0.233148996682
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 7
-Folds for cross validation : 3
-Precision : 0.288412698413
-Recall : 0.183333333333
-Accuracy : 0.839583333333
-F-Meaure : 0.224170031404
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 7
-Folds for cross validation : 4
-Precision : 0.204642857143
-Recall : 0.17875
-Accuracy : 0.831525096525
-F-Meaure : 0.190822077317
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 8
-Folds for cross validation : 2
-Precision : 0.318968253968
+Precision : 0.251892551893
 Recall : 0.188888888889
-Accuracy : 0.852777777778
-F-Meaure : 0.237269712281
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 8
-Folds for cross validation : 3
-Precision : 0.248439153439
-Recall : 0.2
-Accuracy : 0.8375
-F-Meaure : 0.221603445224
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 8
-Folds for cross validation : 4
-Precision : 0.217361111111
-Recall : 0.1525
-Accuracy : 0.836370656371
-F-Meaure : 0.179243334585
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 9
-Folds for cross validation : 2
-Precision : 0.315982142857
-Recall : 0.205555555556
-Accuracy : 0.834722222222
-F-Meaure : 0.249078389226
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 9
-Folds for cross validation : 3
-Precision : 0.360952380952
-Recall : 0.222222222222
-Accuracy : 0.847916666667
-F-Meaure : 0.275086191254
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 9
-Folds for cross validation : 4
-Precision : 0.266428571429
-Recall : 0.2
-Accuracy : 0.841814671815
-F-Meaure : 0.228483920368
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 10
-Folds for cross validation : 2
-Precision : 0.239742063492
-Recall : 0.194444444444
-Accuracy : 0.827083333333
-F-Meaure : 0.214730358929
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 10
-Folds for cross validation : 3
-Precision : 0.293333333333
-Recall : 0.2
-Accuracy : 0.843055555556
-F-Meaure : 0.237837837838
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 10
-Folds for cross validation : 4
-Precision : 0.346726190476
-Recall : 0.22875
-Accuracy : 0.85361003861
-F-Meaure : 0.275645169632
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 11
-Folds for cross validation : 2
-Precision : 0.267076118326
-Recall : 0.183333333333
-Accuracy : 0.853472222222
-F-Meaure : 0.217419749279
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 11
-Folds for cross validation : 3
-Precision : 0.331957671958
-Recall : 0.211111111111
-Accuracy : 0.847222222222
-F-Meaure : 0.258088681043
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 11
-Folds for cross validation : 4
-Precision : 0.312916666667
-Recall : 0.21125
-Accuracy : 0.846138996139
-F-Meaure : 0.252223767886
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 12
-Folds for cross validation : 2
-Precision : 0.299067460317
-Recall : 0.194444444444
-Accuracy : 0.839583333333
-F-Meaure : 0.235666072537
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 12
-Folds for cross validation : 3
-Precision : 0.257513227513
-Recall : 0.144444444444
-Accuracy : 0.836111111111
-F-Meaure : 0.185075980285
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 12
-Folds for cross validation : 4
-Precision : 0.214226190476
-Recall : 0.17
-Accuracy : 0.833436293436
-F-Meaure : 0.189567776917
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 13
-Folds for cross validation : 2
-Precision : 0.304567736185
-Recall : 0.2
-Accuracy : 0.834722222222
-F-Meaure : 0.241448443365
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 13
-Folds for cross validation : 3
-Precision : 0.349087301587
-Recall : 0.205555555556
-Accuracy : 0.840972222222
-F-Meaure : 0.258749691954
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 13
-Folds for cross validation : 4
-Precision : 0.327797619048
-Recall : 0.1925
-Accuracy : 0.848725868726
-F-Meaure : 0.242557487702
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 14
-Folds for cross validation : 2
-Precision : 0.23996031746
-Recall : 0.15
-Accuracy : 0.833333333333
-F-Meaure : 0.184603643024
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 14
-Folds for cross validation : 3
-Precision : 0.229315776816
-Recall : 0.188888888889
-Accuracy : 0.832638888889
-F-Meaure : 0.207148345485
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 14
-Folds for cross validation : 4
-Precision : 0.260892857143
-Recall : 0.1925
-Accuracy : 0.836447876448
-F-Meaure : 0.221538007089
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 15
-Folds for cross validation : 2
-Precision : 0.331835386835
-Recall : 0.216666666667
-Accuracy : 0.846527777778
-F-Meaure : 0.262160065541
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 15
-Folds for cross validation : 3
-Precision : 0.364408369408
-Recall : 0.177777777778
-Accuracy : 0.840972222222
-F-Meaure : 0.238972207067
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 15
-Folds for cross validation : 4
-Precision : 0.297083333333
-Recall : 0.19625
-Accuracy : 0.846254826255
-F-Meaure : 0.236361908784
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 16
-Folds for cross validation : 2
-Precision : 0.277364718615
-Recall : 0.205555555556
-Accuracy : 0.844444444444
-F-Meaure : 0.236121206236
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 16
-Folds for cross validation : 3
-Precision : 0.323095238095
-Recall : 0.177777777778
 Accuracy : 0.838888888889
-F-Meaure : 0.229356150636
+F-Meaure : 0.215887965528
 - - - - - - - - - - - - - - 
 Features are salary bonus expenses frac_from_poi
 Algrithm : Aggregate Boosting
-Number of Estimators : 16
-Folds for cross validation : 4
-Precision : 0.225654761905
-Recall : 0.16375
-Accuracy : 0.843281853282
-F-Meaure : 0.189781794558
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 17
-Folds for cross validation : 2
-Precision : 0.247738095238
-Recall : 0.183333333333
+Number of Estimators : 1
+Folds for cross validation : 3
+Precision : 0.271825396825
+Recall : 0.172222222222
 Accuracy : 0.835416666667
-F-Meaure : 0.210724477584
+F-Meaure : 0.210852944097
 - - - - - - - - - - - - - - 
 Features are salary bonus expenses frac_from_poi
 Algrithm : Aggregate Boosting
-Number of Estimators : 17
-Folds for cross validation : 3
-Precision : 0.26914021164
-Recall : 0.188888888889
-Accuracy : 0.827777777778
-F-Meaure : 0.221984129276
-- - - - - - - - - - - - - - 
-Features are salary bonus expenses frac_from_poi
-Algrithm : Aggregate Boosting
-Number of Estimators : 17
+Number of Estimators : 1
 Folds for cross validation : 4
-Precision : 0.291007326007
-Recall : 0.1725
-Accuracy : 0.837683397683
-F-Meaure : 0.216603971155
+Precision : 0.255615079365
+Recall : 0.19125
+Accuracy : 0.831332046332
+F-Meaure : 0.218797065092
 - - - - - - - - - - - - - - 
 Features are salary bonus expenses frac_from_poi
 Algrithm : Aggregate Boosting
-Number of Estimators : 18
+Number of Estimators : 101
 Folds for cross validation : 2
-Precision : 0.349628427128
-Recall : 0.205555555556
-Accuracy : 0.836805555556
-F-Meaure : 0.258898195258
+Precision : 0.260858585859
+Recall : 0.144444444444
+Accuracy : 0.8375
+F-Meaure : 0.185932848737
 - - - - - - - - - - - - - - 
 Features are salary bonus expenses frac_from_poi
 Algrithm : Aggregate Boosting
-Number of Estimators : 18
+Number of Estimators : 101
 Folds for cross validation : 3
-Precision : 0.230833333333
-Recall : 0.138888888889
-Accuracy : 0.841666666667
-F-Meaure : 0.173428499875
+Precision : 0.308227513228
+Recall : 0.188888888889
+Accuracy : 0.847916666667
+F-Meaure : 0.234233882651
+- - - - - - - - - - - - - - 
+Features are salary bonus expenses frac_from_poi
+Algrithm : Aggregate Boosting
+Number of Estimators : 101
+Folds for cross validation : 4
+Precision : 0.236071428571
+Recall : 0.14625
+Accuracy : 0.832123552124
+F-Meaure : 0.180609528258
 - - - - - - - - - - - - - - 

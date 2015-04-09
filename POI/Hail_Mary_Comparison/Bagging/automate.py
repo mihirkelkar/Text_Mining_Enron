@@ -10,7 +10,7 @@ def main():
   "Inner loop is going to vary k for cross validation"
 
   for feature in features:
-    for num in range(5, 5000):
+    for num in range(1, 5001, 100):
       subprocess.call(["python", "bagging_starter.py", str(num), " ".join(feature)])
       for fold in range(2, 5):
         subprocess.call(["python", "bagging.py", str(fold), str(num), " ".join(feature)])
