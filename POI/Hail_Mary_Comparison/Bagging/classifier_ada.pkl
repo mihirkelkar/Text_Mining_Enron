@@ -35,7 +35,7 @@ p14
 I00
 sS'n_estimators'
 p15
-I101
+I4901
 sS'estimator_params'
 p16
 (tsS'max_features'

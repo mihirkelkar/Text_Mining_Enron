@@ -1,12 +1,12 @@
 (lp0
 S'poi'
 p1
-aS'salary'
+aS'frac_all'
 p2
-aS'bonus'
+aS'frac_to_poi'
 p3
-aS'expenses'
+aS'shared_receipt_with_poi'
 p4
-aS'frac_from_poi'
+aS'exercised_stock_options'
 p5
 a.
